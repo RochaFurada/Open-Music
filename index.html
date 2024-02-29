@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Fontes usadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/music-2-line.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Music</title>
+    <link rel="stylesheet" type='text/css' href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" width='40px' fill="currentColor">
+                <path
+                    d="M20 3V17C20 19.2091 18.2091 21 16 21C13.7909 21 12 19.2091 12 17C12 14.7909 13.7909 13 16 13C16.7286 13 17.4117 13.1948 18 13.5351V6H9V17C9 19.2091 7.20914 21 5 21C2.79086 21 1 19.2091 1 17C1 14.7909 2.79086 13 5 13C5.72857 13 6.41165 13.1948 7 13.5351V3H20Z">
+                </path>
+            </svg>
+            <h2>Open Music</h2>
+        </div>
+        <div class='compact'>
+            <ul>
+                <li><a href="Assinaturas/">Assinaturas</a></li>
+                <li><a href="tecnologias"></a>Tecnologias</li>
+                <li><a href="musicas"></a>Músicas</li>
+                <li><a href="suporte"></a>Suporte</li>
+            </ul>
+        </div>
+        <button id="login">Login</button>
+        <div id="darkmode">
+            <label class="ui-switch">
+                <input id='darkactive' type="checkbox">
+                <div class="slider">
+                    <div class="circle">
+                    </div>
+                </div>
+            </label>
+        </div>
+        <div class="menutoogle" onclick="menutoogle()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
+            </svg>
+        </div>
+    </nav>
+    <!-- Menu do mobile  -->
+    <div class="menumobile">
+        <div class='compact'>
+            <ul>
+                <li><a>Assinaturas</a></li>
+                <li><a href="tecnologias"></a>Tecnologias</li>
+                <li><a href="musicas"></a> Músicas</li>
+                <li><a href="suporte"></a>Suporte</li>
+            </ul>
+            <div class="butmobile">
+                <label class="ui-switch">
+                    <input id='darkmobile' type="checkbox">
+                    <div class="slider">
+                        <div class="circle">
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <div class="logmobi">
+                <div class="button-borders">
+                    <button class="primary-button"> LOGIN
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="rights">
+                <h6>All Rigths Reserved</h6>
+            </div>
+
+            <div class="oprodape"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M20 3V17C20 19.2091 18.2091 21 16 21C13.7909 21 12 19.2091 12 17C12 14.7909 13.7909 13 16 13C16.7286 13 17.4117 13.1948 18 13.5351V6H9V17C9 19.2091 7.20914 21 5 21C2.79086 21 1 19.2091 1 17C1 14.7909 2.79086 13 5 13C5.72857 13 6.41165 13.1948 7 13.5351V3H20Z">
+                    </path>
+                </svg>
+                <h6>Open Music</h6>
+            </div>
+
+        </div>
+    </div>
+    <!-- Fim do menu do mobile -->
+    <div class="main">
+        <div class="left">
+            <h1>Seja bem vindo à <span>Open Music</span></h1>
+            <p> Nosso site contém tecnologias únicas que você pode conferir pelo menu principal, tecnologias essas
+                pensadas para deixar cada música única assim como você</p>
+        </div>
+        <div class="right">
+            <div class="containersint">
+                <div class="lmtsint">
+                    <div class="colun1">
+
+                    </div>
+                </div>
+                <div class="lmtsint">
+                    <div class="colun2">
+
+                    </div>
+                </div>
+                <div class="lmtsint">
+                    <div class="colun3">
+
+                    </div>
+                </div>
+                <div class="lmtsint">
+                    <div class="colun4">
+
+                    </div>
+                </div>
+                <div class="lmtsint">
+                    <div class="colun5">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
