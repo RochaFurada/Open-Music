@@ -75,14 +75,14 @@ nav .logo h2 {
     text-wrap: nowrap;
     text-align: center;
     font-family: 'Sora', sans-serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: var(--darkactive-colors);
 
 }
 
 nav .logo svg {
-    height: 4vw;
-    width: 4vw;
+    height: 3vw;
+    width: 3vw;
     margin-right: 5px;
     fill: var(--darkactive-colors);
 
